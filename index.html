@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment Home Page">
+    <title>Kenny Castillo Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <h1> Kenny Castillo</h1>
+        <img src="" alt="Image Kenny Castillo">
+    </header>
+
+    <main>
+        <h2>CIT 230: Assignment Portal</h2>
+        <hr>
+        <ul>
+        <li>
+            Lesson 2: <a href="">Assignment Link </a>
+        </li>
+        <li>
+            Lesson 3:<a href="">Assignment Link</a>
+        </li>
+        <li>
+            Lesson 4: <a href="">link</a>|<a href="">link</a>
+        </li>
+        </ul>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2020 | Kenny Castillo | San Francisco, CA | Last Modified: <span id="currentdate"></span>
+            <a href="https://www.byui.edu" >BYUI Online Learning</a> </p>
+    </footer>
+    <script>
+    // toLocaleDateString
+    const options = {weekday: 'long', day:'numeric', month:'long', year: 'numeric', hour:'numeric', minutes:'numeric'};
+    document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-us', options);
+
+    </script>
+    
+</body>
+
+</html>
