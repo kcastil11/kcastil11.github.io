@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Architects+Daughter|Baloo|Comfortaa|Covered+By+Your+Grace|Gochi+Hand|Kalam|Lilita+One|Patrick+Hand|Solway&display=swap');
+
+
+body{
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #A8DADC;
+    margin: 1.25rem auto;
+    max-width: 860px;
+    margin: 0 auto;
+    
+}
+div { 
+    background-color: blueviolet;
+}
+header,main,section,footer{
+    margin: 1.25rem auto;
+    max-width: 860px;
+    
+}
+section{
+ padding-left: 10px;
+}
+header, footer{
+    background-color: #8D99AE;
+    color:#2B2D42;
+    text-align: center;
+    font-family:'Architects Daughter', Gadget, sans-serif;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+header img{
+    float: right;
+    margin: 10px;
+    border: 5px;
+    border-radius: 50px;
+    height: auto;
+}
+
+footer{
+    
+    background-color:#8D99AE ;
+    color: #3D1C15;
+    text-align: center;
+    padding: 1.5rem;
+}
+main img {
+    margin-top:2px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    border: 3px solid #73AD21;
+}
+h1, h2, h3, h4{
+    font-family: 'Baloo', Gadget, sans-serif;
+    margin: 0;
+}
