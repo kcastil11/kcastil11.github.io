@@ -1,0 +1,240 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    
+  }
+  @media screen and (max-width: 500px){
+
+  }
+body{
+     display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#accbe1;
+}
+
+header {
+     color: #d1beb0;
+     background-color: #5995ED;
+     font-size: 2rem;
+     line-height: 2rem;
+     font-family: 'Raleway', sans-serif;
+    
+     width: 100%;
+     margin:0 auto;
+     text-align: center;
+     
+
+     
+ }
+ 
+ header img, .headings {
+     display: inline-block;
+     vertical-align: middle;
+     margin: 10px;
+ }
+
+ header h1{
+    font-family: 'El Messiri', sans-serif;
+    color: #3c4f76;
+    font-size: 60px;
+ }
+ h2{
+    font-family:'Mukta Malar', sans-serif; 
+    color: #1B344F;
+ }
+
+
+
+ 
+ .logo {
+        width: 150px;
+        position: absolute;;
+        background-color: #1B344F;
+        top: -10px;
+        left: 10px;
+        border: 2px orange solid;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px;
+      }
+ 
+ 
+ .motto {
+     font-size: .5em;
+     line-height: 2rem;
+     font-family: 'Sarabun', sans-serif;
+    color: #1B344F;
+  text-align: center;
+ }
+ 
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+nav{
+    font-family: 'El Messiri';
+    display:inline-block;
+    background-color:lightgray;
+    color: #3c4f76;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    margin:0 auto;
+    max-width: 100%;
+  
+    }
+
+
+nav button{
+    font-family: 'Mukta Malar', sans-serif;
+    list-style-type: none;
+    font-size: 1.25em;
+    padding-left: 140px;
+    display: inline-block;
+  }
+    
+
+
+
+nav ul{
+    margin: 0;
+
+   
+}
+
+nav ul li a{
+display: grid;
+font-size: 1rem;
+padding: .8rem 2%;
+text-decoration: none;
+columns: auto;
+border-top: 1px solid #000000;
+text-align: center;
+}
+nav ul li .active a{
+    background-color: #d1beb0;color: #accbe1;
+    
+    
+}
+nav ul li a:hover {
+    background-color: #536b78;
+    height: 50px;
+}
+
+
+nav ul.hide {
+    display: none;
+}
+ 
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0em;
+    display: block;
+    clear: both;
+  }
+  
+
+
+
+
+
+/*----- Main CONTENT--*/
+
+main{
+     display: block;
+     font-family: 'Raleway', sans-serif;
+    max-width: 960px;
+    margin:0 auto;
+    text-align: center;
+    padding: 150px;
+    background-color: #dddbf1;
+}
+.boxholder{
+     max-width: 860px;
+    display: grid;
+    margin: 10px auto;
+    border-radius: 25px;
+    border-style:solid;
+    background-color:#ab9f9d;
+    color: #3c4f76;
+    font-style: italic;
+    padding: 10px;
+    margin:1em;
+    
+
+}
+.boxholder{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+    grid-gap: 10px;
+}
+
+div {
+
+    display: block;
+    max-width: 960px;
+    margin:0 auto;
+    text-align: left;
+}
+
+
+/*--------FOOTER----*/
+
+footer{
+    background-color:#cee5f2;
+    
+    width: 80%;
+    
+    padding: 5px;
+    margin:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: -1px;
+    clear: both ;
+    position: relative;
+    
+    border-radius: 15px;
+   
+   
+}
+footer p{
+    color: #1B344F;
+    font-family: sans-serif;
+    font-size: 15px;
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
