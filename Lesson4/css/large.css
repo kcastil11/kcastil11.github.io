@@ -1,12 +1,19 @@
-/* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+    nav{
+        height: 50px;  
+            
+        
+    }
+    footer{
+        height: 80px;  
+    }
 
     nav button {
         display: none;
         
     }
     nav ul.hide{
-        display: block;
+        display:flex ;
     }
     nav ul{
         margin-left: 10%;
@@ -21,7 +28,7 @@
   }
   nav ul li a {
       border: none;
-      border-right: 1px solid #ab9f ;
+      border-right: 1px solid rgb(131, 210, 241) ;
       padding: .6rem 1rem;
       
   }

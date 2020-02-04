@@ -1,3 +1,7 @@
+small css
+
+
+
 html,body {
     height: 100%;
     margin: 0;
@@ -19,7 +23,7 @@ header {
      font-size: 2rem;
      line-height: 2rem;
      font-family: 'Raleway', sans-serif;
-    
+     
      width: 100%;
      margin:0 auto;
      text-align: center;
@@ -48,18 +52,21 @@ header {
 
  
  .logo {
-        width: 150px;
-        position: absolute;;
-        background-color: #1B344F;
-        top: -10px;
-        left: 10px;
-        border: 2px orange solid;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px;
+    height: 8rem;
+    width: 150px;
+    height: 150px;
+    border: 2px darkcyan solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px slategrey;
+    
+    position: relative;
+   
       }
+
  
  
  .motto {
+    max-width: 100%;
      font-size: .5em;
      line-height: 2rem;
      font-family: 'Sarabun', sans-serif;
@@ -78,40 +85,43 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 nav{
     font-family: 'El Messiri';
-    display:inline-block;
+   
     background-color:lightgray;
-    color: #3c4f76;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px;
+    
+    
+    text-align: center;
     margin:0 auto;
-    max-width: 100%;
+    width: 100%;
   
     }
 
 
 nav button{
-    font-family: 'Mukta Malar', sans-serif;
-    list-style-type: none;
-    font-size: 1.25em;
-    padding-left: 140px;
-    display: inline-block;
+    
+    margin: .2em 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+   
   }
     
 
 
 
 nav ul{
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-
    
 }
 
 nav ul li a{
-display: grid;
+display: flex;
 font-size: 1rem;
 padding: .8rem 2%;
 text-decoration: none;
-columns: auto;
+
 border-top: 1px solid #000000;
 text-align: center;
 }
@@ -139,10 +149,8 @@ nav ul.hide {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    margin: 0 auto;
-    list-style: none;
-    padding: 0em;
-    display: block;
+    content: "";
+    display: table;
     clear: both;
   }
   
@@ -155,24 +163,24 @@ nav ul.hide {
 
 main{
      display: block;
-     font-family: 'Raleway', sans-serif;
-    max-width: 960px;
+     font-family: 'El Messiri', sans-serif;
+    max-width: 100%;
     margin:0 auto;
     text-align: center;
-    padding: 150px;
+    
     background-color: #dddbf1;
 }
 .boxholder{
-     max-width: 860px;
+     max-width: 86%;
     display: grid;
     margin: 10px auto;
-    border-radius: 25px;
+    
     border-style:solid;
     background-color:#ab9f9d;
     color: #3c4f76;
-    font-style: italic;
+    font-style: sans-serif;
     padding: 10px;
-    margin:1em;
+    
     
 
 }
@@ -186,7 +194,7 @@ main{
 div {
 
     display: block;
-    max-width: 960px;
+   width: 100%;
     margin:0 auto;
     text-align: left;
 }
@@ -206,7 +214,7 @@ footer{
     margin-right: auto;
     text-align: center;
     margin-bottom: -1px;
-    clear: both ;
+  
     position: relative;
     
     border-radius: 15px;
@@ -221,20 +229,17 @@ footer p{
    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 500px) {
+    
+    body, main{
+        background-color: rgb(247, 208, 203);
+    }
+    section h2{
+        display: none;
+    }
+    section h1{
+        font-size: 40px;
+    }
+    
+    
+        }
