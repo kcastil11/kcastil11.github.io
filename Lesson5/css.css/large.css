@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+    body{
+     background-color: rgb(215, 215, 233);
+    
+    }
+   
+      
+  
+ .menu li:first-child {
+   display:none;
+ }
+ .menu li {
+   display: inline-block;
+ }
+ .menu a {
+   border-radius: 0 0 0 0;
+   border: none;
+   padding: .8rem;
+   font-size: 100%;
+ }
+
+ .container-numero {
+   display: block;
+
+}
+}
