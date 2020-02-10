@@ -1,11 +1,11 @@
 @media only screen and (min-width: 600px) {
     body{
-     background-color: rgb(215, 215, 233);
+     background-color:#dddbf1;
     
     }
    
       
-  
+ 
  .menu li:first-child {
    display:none;
  }
@@ -22,5 +22,13 @@
  .container-numero {
    display: block;
 
+ }
+ .map {
+  display:inline-block;
+  width: 35%;
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+ 
 }
+
 }

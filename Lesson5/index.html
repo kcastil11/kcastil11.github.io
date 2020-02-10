@@ -6,11 +6,12 @@
   <title>Preston Page </title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
-  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css.css/normalize.css">
   <link rel="stylesheet" href="css.css/small.css" />
   <link rel="stylesheet" href="css.css/medium.css">
   <link rel="stylesheet" href="css.css/large.css" />
+ 
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
   <!--HEADER-->
   <header>
-      <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park.</b></div>
+      
     <img src="images/stellarlogo1.png" alt="logo" class="logo">
     <div class="header-title-text">
       <h1 class="title-header">Stellar Weather US</h1>
@@ -44,22 +45,22 @@
 <!--MAIN CONTENT-->
   <main>
     <section class="container-banner">
-      <div  id="title-town"> <h1>Preston,Idaho</h1>  </div>
+      <div  id="title-town"> <h2>Preston,Idaho</h2>  </div>
       <div class="banner-GRANDE">
         <img src="images/sunny.jpeg" alt="sunny day image"> 
       </div>
       <div class="img-overlay">
         <form action="#">
-          <h3 class="preference">Weather Today</h3>
+          <h3 class="preference">Weather Today:</h3>
           <label for="current-conditions">Currently:</label>
-          <input type="text" id="current-conditions"><br>
+          <input type="text" id="current-conditions"value="Sunny"><br>
           <label for="temp">Temperature:</label>
           <input type="text" id="temp" value="80&#8457;"><br>
           <label for="humidity">Humidity:</label>
           <input type="text" id="humidity" value="40&#37;"><br>
 
           <label for="precipitation">Precipitation:</label>
-          <input type="text" id="precipitation" name="precipitation" value="20 inches"><br>
+          <input type="text" id="precipitation" name="precipitation" value="10 inches"><br>
 
           <label for="wind-speed">Wind Speed:</label>
           <input type="text" id="wind-speed" name="wind-speed" value="20 mph"><br>
@@ -122,15 +123,15 @@
          
 
       
-      <img id="map" src="images/prestonmap.png" alt="map of Idaho">
+      <img class="map" src="images/prestonmap.png" alt="map of Idaho">
       
     </div>
-    <p id="footend-copy">&copy; Stellar Weather US | Kenny Castillo | <a href="https://www.byui.edu" 
-        rel="help">BYU-Idaho</a> | <span id="upDate"></span> 
+    <p id="footend-copy">&copy; Stellar Weather US | Kenny Castillo|<a href="https://www.byui.edu" 
+        rel="help"> BYU-Idaho</a> | <span id="upDate"></span> 
   </footer>
-  <script src="js/time.js"></script>
-  <script src="js/fridaynightlive.js"></script>
-  <script src="js/hamburger.js"></script>
+  <script src="time.js"></script>
+  <script src="friday.js"></script>
+  <script src="hamburger.js"></script>
 </body>
 
 </html>
