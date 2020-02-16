@@ -1,0 +1,37 @@
+@media only screen and (min-width: 600px) {
+    body{
+     background-color:#dddbf1;
+    
+    }
+   
+      
+ 
+ .menu li:first-child {
+   display:none;
+ }
+ .menu li {
+   display: inline-block;
+ }
+ .menu a {
+   border-radius: 0 0 0 0;
+   border: none;
+   padding: .8rem;
+   font-size: 100%;
+ }
+
+ .container-numero {
+   display: block;
+
+ }
+ .map {
+  display:inline-block;
+  width: 35%;
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+ 
+}
+
+}
+
+
+

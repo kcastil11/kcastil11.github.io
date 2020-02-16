@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Preston Page </title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css/normalize.css">
+  <link rel="stylesheet" href="css.css/small.css" />
+  <link rel="stylesheet" href="css.css/medium.css">
+  <link rel="stylesheet" href="css.css/large.css" />
+ 
+</head>
+
+<body>
+  <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+
+  <!--HEADER-->
+  <header>
+      
+    <img src="images/stellarlogo1.png" alt="logo" class="logo">
+    <div class="header-title-text">
+      <h1 class="title-header">Stellar Weather US</h1>
+      <div class="motto">Weather information close to you
+      </div>
+    </div>
+    <div class="header-object"></div>
+
+   <!--NAVIGATION HERE-->
+    <nav>
+      <ul class="menu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;&nbsp;Menu</a></li>
+        <li><a href="#" >Home</a></li>
+        <li><a href="#"  >Preston</a></li>
+        <li><a href="#" >Soda Springs</a></li>
+        <li><a href="#" >Fish Haven</a></li>
+        <li><a href="#" >Storm Center</a></li>
+        <li><a href="#" >Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--MAIN CONTENT-->
+  <main>
+    <section class="container-banner">
+      <div  id="title-town"> <h2>Preston,Idaho</h2>  </div>
+      <div class="banner-GRANDE">
+        <img src="images/cit230_image_franklinOriginal.png" alt="sunny day image" sizes="50vw" srcset="images/cit230.jpeg 350w,images/smallcit230.png 500w,images/largecit230.png 900w ">
+      </div>
+      <!--- <div class="img-overlay">
+        <form action="#">
+          <h3 class="preference">Weather Today:</h3>
+          <label for="current-conditions">Currently:</label>
+          <input type="text" id="current-conditions" value="Sunny"><br>
+          <label for="temp">Temperature:</label>
+          <input type="text" id="temp" value="80&#8457;"><br>
+          <label for="humidity">Humidity:</label>
+          <input type="text" id="humidity" value="40&#37;"><br>
+
+          <label for="precipitation">Precipitation:</label>
+          <input type="text" id="precipitation" name="precipitation" value="10 inches"><br>
+
+          <label for="wind-speed">Wind Speed:</label>
+          <input type="text" id="wind-speed" name="wind-speed" value="20 mph"><br>
+        </form>
+      </div-->
+      <div class="weatherbox">
+        <h3>Weather Today</h3>
+        <div class="weatherSummaryGrid">
+            <p class="summaryp">Currently:</p>
+            <p class="currentweather">Rainy</p>
+            <p class="summaryp">High:</p>
+            <p class="high">30&#xb0;</p>
+            <p class="summaryp">Wind Chill:</p>
+            <p class="windchill" id="displayWind">31&#xb0;F</p>
+            <p class="summaryp">Humidity: </p>
+            <p class="humidity">30%</p>
+            <p class="summaryp">Wind Speed: </p>
+            <p class="windspeed"><span id="windSp">49</span> mph</p>
+        </div>
+    </div>
+  </section>
+    </section>
+
+<!--SECTION#1-->
+    <section class="container-numero">
+      <h2>6-Day Forecast</h2>
+      <div class="forecast">
+        <table>
+          <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+          <tr>
+            <td>90&#8457;</td>
+            <td>92&#8457;</td>
+            <td>88&#8457;</td>
+            <td>94&#8457;</td>
+            <td>90&#8457;</td>
+            <td>94&#8457;</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+<!--SECTION#2-->
+    <article class="clearfix">
+      <h2 class="article-title">The Stellar Weather US is forecasting sun, sun and more sun</h2>
+      <h3 class="article-sub">Stellar weather </h3>
+      <p class="article-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto debitis nihil soluta fugiat. Eveniet, animi veritatis et quia omnis, ab praesentium dolores pariatur, minus maxime eaque. Dolorum reprehenderit quam sunt?
+        
+      </p>
+      
+      <img class="pics" src="images/sunnyday1.png"  alt="sunny day">
+    </article> 
+  </main>
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container-abajo clearfix">
+      <div class="contact">
+        <address>
+          <pre>
+          Stellar Weather US
+          1234 Sunny Land Ave 
+          Sun City, Idaho
+          (923)567-0987
+          stellarweatherus.us
+          </pre>
+        </address>
+      </div>
+         
+
+      
+      <img class="map" src="images/prestonmap.png" alt="map of Idaho">
+      
+    </div>
+    <p id="footend-copy">&copy; Stellar Weather US | Kenny Castillo|<a href="https://www.byui.edu" 
+        rel="help"> BYU-Idaho</a> | <span id="upDate"></span> 
+  </footer>
+  <script src="time.js"></script>
+  <script src="friday.js"></script>
+  <script src="hamburger.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="webfont.js"></script>
+  <script src="windchill.js"></script>
+
+</body>
+
+</html>
