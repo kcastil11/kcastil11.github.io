@@ -47,8 +47,12 @@
     <section class="container-banner">
       <div  id="title-town"> <h2>Preston,Idaho</h2>  </div>
       <div class="banner-GRANDE">
-        <img src="images/cit230_image_franklinOriginal.png" alt="sunny day image" sizes="50vw" srcset="images/cit230.jpeg 350w,images/smallcit230.png 500w,images/largecit230.png 900w ">
-      </div>
+        <picture class= 'heroimage'>
+        <source media="(min-width: 900px)" srcset="images/largecit230.png">
+          <source media="(min-width: 600px)" srcset="images/mediumcit230.png">
+            <img src="images/smallcit230.png"  alt="sunny image">
+      </picture>
+          </div>
       <!--- <div class="img-overlay">
         <form action="#">
           <h3 class="preference">Weather Today:</h3>
@@ -67,22 +71,22 @@
         </form>
       </div-->
       <div class="weatherbox">
-        <h3>Weather Today</h3>
+        <h3><u>Weather Summary</u></h3>
         <div class="weatherSummaryGrid">
             <p class="summaryp">Currently:</p>
-            <p class="currentweather">Rainy</p>
-            <p class="summaryp">High:</p>
-            <p class="high">30&#xb0;</p>
-            <p class="summaryp">Wind Chill:</p>
-            <p class="windchill" id="displayWind">31&#xb0;F</p>
-            <p class="summaryp">Humidity: </p>
-            <p class="humidity">30%</p>
-            <p class="summaryp">Wind Speed: </p>
-            <p class="windspeed"><span id="windSp">49</span> mph</p>
+          <p class="currentweather">Sunny</p>
+          <p class="summaryp">High:</p>
+          <p class="high">30&#xb0;</p>
+          <p class="summaryp">Wind Chill:</p>
+          <p class="windchill" id="displayWind">31&#xb0;F</p>
+          <p class="summaryp">Humidity: </p>
+          <p class="humidity">30%</p>
+          <p class="summaryp">Wind Speed: </p>
+          <p class="windspeed"><span id="windSp">49</span> mph</p>
         </div>
     </div>
   </section>
-    </section>
+    
 
 <!--SECTION#1-->
     <section class="container-numero">
