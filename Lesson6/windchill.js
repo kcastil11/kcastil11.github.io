@@ -13,4 +13,4 @@ function windChill() {
 
 }
 // Wind Chill calculation
-document.getElementById("displayWind").innerHTML = windChill() + "&#xb0;F";
+document.getElementById("displaywindchi").innerHTML = windChill() + "&#xb0;F";
