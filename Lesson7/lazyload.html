@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lazy loading</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="lazyload.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap" rel="stylesheet" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Progressive Image Loading</h1>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-1.png" alt="Australia">
+        </picture>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-2.png" alt="Syachelles">
+        </picture>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-3.png" alt="Maldives">
+        </picture>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-4.png" alt="Santorini">
+        </picture>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-5.png" alt="San Francisco">
+        </picture>
+        <picture>
+            <img src="images/image-placeholder.png" data-src="images/picture-6.png" alt="Uyuni">
+         </picture>   
+        </main>
+        <script src="lazyload.js" defer></script>
+</body>
+
+</html>

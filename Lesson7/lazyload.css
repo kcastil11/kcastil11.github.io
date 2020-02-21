@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(106, 164, 223);
+    color:rgb(41, 49, 58);
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-size: 150%;
+}
+
+main {
+    display: grid;
+    grid-column: 1;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 2s;
+    padding: 5px;
+}
