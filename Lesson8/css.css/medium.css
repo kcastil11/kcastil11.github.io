@@ -1,0 +1,44 @@
+@media only screen and (min-width: 700px){
+    ul#menu{
+        display: flex;
+        flex: 1 1 100%;
+    }
+
+    .container-gallery{
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+       
+    }
+
+    .map {
+      display:inline-block;
+      width: 35%;
+      height: auto;
+      border-radius: 15px 15px 15px 15px;
+     
+    }
+
+    .container-numero{
+      display:grid;
+    }
+    
+    
+   
+    picture img {
+        width: 100%;
+        transition: filter 0.85s;
+      }
+      figure {
+ 
+        font-size: 25px;
+      }
+    
+    .container-abajo clearfix{
+      display:grid;
+    }
+
+
+
+}
+

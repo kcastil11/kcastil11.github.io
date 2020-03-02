@@ -1,0 +1,152 @@
+@media only screen and (min-width: 992px) {
+    body{
+     background-color:#dddbf1;
+    
+    }
+    #title-header{
+      color:#383f51;
+      font-size: 50px;
+    }
+   
+    #motto {
+      font-style:normal;
+      font-weight: 700;
+      color:#383f51;
+      font-size: 35px;
+    }
+
+    #tittle-town h2{
+      font-size:38px;
+    }
+      
+ 
+ .menu li:first-child {
+   display:none;
+ }
+ .menu li {
+   display: inline-block;
+ }
+ .menu a {
+   border-radius: 0 0 0 0;
+   border: none;
+   padding: .8rem;
+   font-size: 100%;
+ }
+
+ .container-numero {
+   display: block;
+ }
+
+ 
+ 
+ /*FOOTER*/
+
+ .pics{
+   max-width: 40%;
+   border-radius: 10px;
+   
+ }
+
+ .contact address pre{
+  font-size: 30px;
+  text-align: left;
+
+}
+
+
+ .map {
+  display:inline-block;
+  width: 35%;
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+ 
+}
+
+article p.article-body{
+  float:left;
+  text-align: left;
+  margin:0 auto;
+  padding-right: 1vw;
+  width:50%;
+  height: auto;
+}
+
+
+
+.weatherSumaryGrid {
+  position: relative;
+
+}
+
+.weatherbox {
+  position: absolute;
+  top: 85px;
+  left: 25px;
+  background-color:#accbe1;
+  padding: .7rem;
+  font-size: 1.2rem;
+  box-shadow: 0 0 30px #111;
+  opacity: .8;
+}
+
+.img-overlay h3{
+  margin: 0 0 .8em auto;
+  border-bottom: 1px solid #fff;
+
+}
+
+.weatherbox {
+  float: left;
+  width: 12em;
+  margin-right: .8em;
+  padding-bottom: .5em;
+  text-align: left;
+
+}
+.weatherbox p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3rem;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+/* hover effect */
+
+
+.container-gallery {
+max-width: 1000px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+#header-gallery h2{
+font-size: 50px;
+
+
+}
+
+figure {
+
+font-size: 30px;
+
+}
+
+figure:hover {
+box-shadow: 0 0 40px cornflowerblue;
+border-radius: 0px;
+}
+
+
+img[data-src] {
+  filter: blur(0.2em);
+  }
+
+}
+
+
+
+
