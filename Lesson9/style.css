@@ -24,9 +24,7 @@ h2 {
     gap: 1em;
 }
 
-.cards{
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-}
+
 img{
     width: 75%;
     box-shadow: 0 0 15px black;
@@ -55,3 +53,17 @@ footer{
     padding: 25px;
     background-color: #accbe1;
 }
+
+@media only screen and (min-width: 600px)
+    {
+        .cards{
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media only screen and (min-width: 900px)
+    {
+        .cards{
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            }
+    }
