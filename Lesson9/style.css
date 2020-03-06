@@ -17,11 +17,15 @@ h2 {
     font-family: Times, 'Times New Roman', serif;
     color: #284758;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
 .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 img{
     width: 75%;
@@ -29,7 +33,7 @@ img{
     border-radius:15px;
 }
 P {
-    margin-top: -10PX;
+    margin-top: -10px;
     color: black;
     font-family: arial;
 }
