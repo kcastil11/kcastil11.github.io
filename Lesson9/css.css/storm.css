@@ -1,0 +1,118 @@
+/*------- Hero Container and Image -------*/
+
+  
+
+  /*----- Clearfix: Force an Element not to collapse -----*/
+
+ 
+  /*----------- StormCenter--------------*/
+  
+  .container.form {
+    background-color:#7c98b3;
+    margin: 1.5rem  auto;
+    padding: .6em;
+    box-shadow: 5px 10px 18px #0a0909;
+    border-radius: 5px 5px 5px 5px;
+    color: #2f3236;
+    align-content: center;
+    max-width: 700px;
+  }
+  main > * {
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+}
+  
+  .storm ::placeholder, .storm :-ms-input-placeholder,
+  .storm ::-ms-input-placeholder, .storm :-ms-textarea-placeholder,
+  .storm ::-ms-textarea-placeholder  {
+    color: slateblue;
+    /* Firefox */
+  }
+  
+  .storm h1 {
+    color:#3c7899;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  
+  .storm fieldset {
+    margin: 2rem 0;
+    border: solid 2px #637081;
+    border-radius: 10px;
+    padding: .5rem 2%;
+  }
+  .storm legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+  }
+  
+  .storm .label-top {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+  }
+  
+  .storm .label-top input, .storm .label-top select, .storm textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: solid 2px #999;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color:#8bcef1;
+  }
+  
+  .storm .label-top select option {
+    color:black;
+  }
+  
+   .storm input.submitBtn {
+    border: none;
+    background-color: rgb(79, 101, 134);
+    color:#999;
+    font-size: 25px;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 18px #0a0909;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+  }
+  
+  /*.label-top input:required:invalid {
+    border-left: #e4e0df solid 6px;
+  
+  }*/
+  
+  .label-top input:required:valid {
+    border-left: black 6px;
+  }
+  
+  .storm .label-top input:hover, .storm .label-top select:hover , .storm textarea:hover, .storm input.submitBtn:hover, .radio.storm:hover {
+    background-color:lightgrey;
+    color: black;
+    cursor: auto;
+  }
+  
+  .storm .slider:hover {
+    cursor: grab;
+  }
+  
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+  
+div {
+    display: block;
+}
+* html, body, header, footer, main, h1, h2, nav, section, article {
+    margin: 0;
+    padding: 0;
+    font-family: 'El Messiri', serif;
+}
+  
+  
