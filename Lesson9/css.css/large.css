@@ -12,7 +12,7 @@
       font-style:normal;
       font-weight: 700;
       color:#383f51;
-      font-size: 35px;
+      font-size: 25px;
     }
 
     #tittle-town h2{
@@ -158,9 +158,6 @@ main-2{
 .container form-2, h1{
   font-size: 40px;
 }
-.contenido{
-  grid-template-columns: auto auto auto;
-}
 
 .cabeza{
   text-align: center;
@@ -172,7 +169,7 @@ article {
 }
 .numero-2 img{
   margin: auto;
-  max-width: 40%;
+  max-width: auto;
   float: right;
   
 }
@@ -181,7 +178,7 @@ section .estilo{
   margin: auto;
   max-width: 100%;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   line-height: 1.6;
   text-align: left;
   font-family: 'El Messiri', sans-serif;
@@ -200,38 +197,6 @@ section .estilo{
   margin: 30px;
   padding: 20px;
 }
- .numero-3 img{
-  margin: auto;
-  max-width: 50%;
-
-  float: left;
-  padding-right: 30px;
-  
- }
- section .estilo9{
-  margin: auto;
-  max-width: 100%;
-  text-align: center;
-  letter-spacing: 3px;
-  line-height: 1.6;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-
- }
- .numero-3 h2{
-  text-align: left;
-  margin:10px;
- }
- .numero-3 h4{
-  text-align: left;
-  margin:10px;
- }
- .numero-3{
-  margin: 30px;
-  padding: 20px;
-}
-
-
 
 
 
