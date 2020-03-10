@@ -169,7 +169,7 @@ article {
 }
 .numero-2 img{
   margin: auto;
-  max-width: auto;
+  max-width: 100%;
   float: right;
   
 }
