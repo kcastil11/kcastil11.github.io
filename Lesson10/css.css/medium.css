@@ -1,0 +1,96 @@
+@media only screen and (min-width: 700px){
+    ul#menu{
+        display: flex;
+        flex: 1 1 100%;
+    }
+
+    .container-gallery{
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+       
+    }
+
+    .map {
+      display:inline-block;
+      width: 35%;
+      height: auto;
+      border-radius: 15px 15px 15px 15px;
+     
+    }
+
+    .container-numero{
+      display:grid;
+    }
+    
+    
+   
+    picture img {
+        width: 100%;
+        transition: filter 0.85s;
+      }
+      figure {
+ 
+        font-size: 25px;
+      }
+    
+    .container-abajo clearfix{
+      display:grid;
+    }
+
+
+
+}
+/*--storm center--*/
+.storm{
+  margin: 0 auto;
+  max-width: 700px;
+}
+  
+/*-Thank you --*/    
+main-2{
+  margin-left: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 30px;
+  
+}
+.container form-2, h1{
+  font-size: 35px;
+  
+}
+
+
+
+h4.forecast-item {
+  background-color:#accbe1;
+  border-radius: 8px;
+  
+}
+
+ .forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: .50rem;
+  margin: .20em;
+}
+.forecast-item img {
+padding: .5rem;
+}
+.gridforecast {
+display: flex;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+border-radius: 8px;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+
+color: white;
+text-shadow: 2px 2px 4px rgb(241, 238, 238);
+}
+
+
+  
+
