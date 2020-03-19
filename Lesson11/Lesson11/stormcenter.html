@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Storm Report </title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css/normalize.css">
+  <link rel="stylesheet" href="css.css/small.css" />
+  <link rel="stylesheet" href="css.css/medium.css"/>
+  <link rel="stylesheet" href="css.css/large.css"/>
+ 
+</head>
+
+<body>
+  <!--<aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>-->
+
+  <!--HEADER-->
+  <header>
+      
+    <img src="images/stellarlogo1.png" alt="logo" class="logo">
+    <div class="header-title-text">
+      <h1 id="title-header">Stellar Weather US</h1>
+      <div id="motto">Weather information close to you
+      </div>
+    </div>
+    <div class="header-object"></div>
+
+   <!--NAVIGATION HERE-->
+    <nav>
+      <ul class="menu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;&nbsp;Menu</a></li>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="preston.html"  >Preston</a></li>
+        <li><a href="SodaSprings.html" >Soda Springs</a></li>
+        <li><a href="FishHaven.html" >Fish Haven</a></li>
+        <li><a id="active" href="stormcenter.html" >Storm Center</a></li>
+        <li><a href="gallery.html" >Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main class="storm">
+    <h1>Storm Center Report</h1>
+
+    <div class="container form">
+        <form class="storm" method="GET" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Reported By
+                </legend>
+                <label for="name" class="label-top">
+                    Full Name*
+                    <input required type="text" name="name" id="name" placeholder="Full Name" title="enter your first and last name"
+                        pattern="^[a-zA-ZÀ-ž\-']{2,25}(\s[a-zA-ZÀ-ž\-']{1,25}.\s[a-zA-ZÀ-ž\-']{2,25}|\s[a-zA-ZÀ-ž\-']{2,25})$"
+                        autocomplete="name" />
+                </label>
+                <label for="email" class="label-top">Email* <input type="email" id="email" name="email" placeholder="@example.com"
+                        title="Please enter a valid email" autocomplete="email"></label>
+                <label for="phone" class="label-top">
+                    Phone Number*
+                    <input required type="tel" name="phone" id="phone" placeholder="1235554567" title="Please enter your phone number"
+                        autocomplete="tel" />
+                </label>
+                <label for="zip-code" class="label-top">
+                    ZIP Code*
+                    <input required type="text" name="zip-code" id="zip-code" placeholder="94402"
+                        title="Please enter your zip code or postal code" autocomplete="postal-code" />
+                </label>
+            </fieldset>
+            
+           <!--First part-->
+            <fieldset>
+                <legend>
+                    Storm Details
+                </legend>
+                <label for="date" class="label-top">
+                    Date of Storm*
+                    <input required type="date" name="input" id="date" title="select the date of storm event"
+                        autocomplete="on" />
+                </label>
+                <label for="storm-type" class="label-top" title="Type your response into the field. ">
+                    What are you reporting?
+                    <input required type="text" list="storm-choices" name="storm-type" id="storm-type" title="Type your response into the field."
+                        placeholder="double-click" />
+                    <datalist id="storm-choices">
+                        <option value="Blizzard"></option>
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                        <option value="Tsunami"></option>
+                    </datalist>
+                </label>
+
+                <label class="label-top">Storm Region
+                    <select name="subject">
+                        <option value="" selected disabled>Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda-springs">Soda Springs</option>
+                        <option value="fish-haven">Fish Haven</option>
+                    </select>
+                </label>
+
+            </fieldset>
+
+          <!--Second part-->
+            <fieldset>
+                <legend>Are you in Danger<em> (Choose one)</em></legend>
+                <div><label class="radio storm" for="yes">
+                        <input type="radio" id="yes" name="danger-level" value="yes" checked>
+                        Yes</label>
+                </div>
+                <div><label class="radio storm" for="maybe">
+                        <input type="radio" id="maybe" name="danger-level" value="maybe">
+                        Maybe</label>
+                </div>
+                <div><label class="radio storm" for="no">
+                        <input type="radio" id="no" name="danger-level" value="no">
+                        No</label>
+                </div>
+            </fieldset>
+
+        <!--Third part-->
+        <fieldset>
+            <label>Storm Rate (1 to 10): <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span></label>
+            <datalist id="severity">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
+        </fieldset>
+            <fieldset>
+                <legend>Detail <em>(optional)</em></legend>
+                <div>
+                    <label class="label-top" for="textarea">
+                        <textarea name="data" id="textarea" placeholder="additional information"
+                            rows="4" cols="50"></textarea>
+                    </label>
+                </div>
+            </fieldset>
+            <input type="submit" name="storm-report" value="Submit Report" class="submitBtn">
+        </form>
+    </div>
+</main>
+
+ <!--FOOTER-->
+ <footer>
+    <div class="container-abajo clearfix"> </div>
+    <p id="footend-copy">&copy; Stellar Weather US | Kenny Castillo | <a href="https://www.byui.edu" 
+        rel="help">BYU-Idaho</a> | <span id="upDate"></span> 
+  </footer>
+  <script src="time.js"></script>
+  <!--<script src="js/fridaynightlive.js"></script>-->
+  <script src="hamburger.js"></script>
+  <!--<script src="js/windchill.js"></script>-->
+  <script src="images.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="webfont.js"></script>
+  <script src="ratingstorm.js"></script>
+</body>
+
+</html>
