@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fish Haven</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css/normalize.css">
+  <link rel="stylesheet" href="css.css/small.css" />
+  <link rel="stylesheet" href="css.css/medium.css">
+  <link rel="stylesheet" href="css.css/large.css" />
+ 
+</head>
+
+<body>
+  <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+
+  <!--HEADER-->
+  <header>
+      
+    <img src="images/stellarlogo1.png" alt="logo" class="logo">
+    <div class="header-title-text">
+      <h1 id="title-header">Stellar Weather US</h1>
+      <div id="motto">Weather information close to you
+      </div>
+    </div>
+    <div class="header-object"></div>
+
+   <!--NAVIGATION HERE-->
+    <nav>
+      <ul class="menu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;&nbsp;Menu</a></li>
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="preston.html"  >Preston</a></li>
+        <li><a href="SodaSprings.html" >Soda Springs</a></li>
+        <li><a id= "active" href="FishHaven.html" >Fish Haven</a></li>
+        <li><a href="stormcenter.html" >Storm Center</a></li>
+        <li><a href="gallery.html" >Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--MAIN CONTENT-->
+  <main>
+    <section class="container-banner">
+      <div  id="title-town"> <h1>Fish Haven, Idaho</h1>  </div>
+      <div class="banner-GRANDE">
+        <picture class= 'heroimage'>
+        <source media="(min-width: 900px)" srcset="images/ciudad.png">
+          <source media="(min-width: 600px)" srcset="images/ciudad.png">
+            <img src="images/ciudad.png"  alt="sunny image">
+      </picture>
+          </div>
+
+      <div class="weatherbox">
+          <!--section class="updatebox"-->
+              <h2>Weather Today</h2>
+              <p>Currently: <span id="currently"></span></p>
+              <p>High: <span id="current-temp"></span></p>
+              <p>Wind Chill: <span id="windchill"></span></p>
+              <p>Humidity: <span id="humidity"></span></p>
+              <p>Wind Speed: <span id="wind-speed"></span></p>
+      
+            </div>
+
+        
+        
+  </section>
+    
+
+<!--SECTION#1-->
+    <section class="container-numero">
+      <h1>5 Day Forecast</h1>
+        <div class="forecast">
+      
+            
+      
+          
+        </div>
+    </section>
+
+<!--SECTION#2-->
+    <article class="clearfix">
+      <h2 class="article-title">Bear Lake County Commissioners Notice</h2>
+      <h3 class="article-sub">News Break/ Herald Journal </h3>
+      <p class="article-body">This was received from Bear Lake County Commissioners. The following guidelines will be implemented by the County Commissioners to help reduce the transmission risk of the spread of infectious disease affected March 16, 2020.
+        Bear Lake County School Board decided at a special meeting, Sunday night, to close the schools for the next three weeks. They will look at the situation with the Covid-19 again before spring break starts.
+
+
+      </p>
+      
+      <img class="pics" src="images/fishhavenarticle.jpeg"  alt="sunny day">
+    </article> 
+  </main>
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container-abajo clearfix">
+      <div class="contact">
+        <address>
+          <pre>
+          Stellar Weather US
+          1234 Sunny Land Ave 
+          Sun City, Idaho
+          (923)567-0987
+          stellarweatherus.us
+          </pre>
+        </address>
+      </div>
+         
+
+      
+      <img class="map" src="images/prestonmap.png" alt="map of Idaho">
+      
+    </div>
+    <p id="footend-copy">&copy; Stellar Weather US | Kenny Castillo|<a href="https://www.byui.edu" 
+        rel="help"> BYU-Idaho</a> | <span id="upDate"></span> 
+  </footer>
+  <script src="time.js"></script>
+  <script src="friday.js"></script>
+  <script src="hamburger.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="webfont.js"></script>
+  <script src="windchillfish.js"></script>
+  <script src="forecast.js"></script>
+
+</body>
+
+</html>
