@@ -674,6 +674,15 @@ h4 {
 .gridforecast{
   display: none;
 }
-/*.fiveDayForcast h3{ 
-display: none;
-}*/
+
+
+#eventosbox{
+  display:block;
+  max-width: 120%;
+  margin: 0 auto;
+  font-size: 25px;
+  border-style: solid;
+  border-radius: 25px;
+ background-color: rgb(236, 234, 226);
+ border-width: 3px;
+ }

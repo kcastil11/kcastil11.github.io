@@ -38,8 +38,7 @@
    
  }
 
- 
- 
+
  /*FOOTER*/
 
  .pics{
@@ -222,6 +221,21 @@ padding: 20px;
   color:#7c98b3; ;
   }
 
+  #eventosbox{
+      
+      width: 500px;
+      margin: 15px auto;
+      border-style: solid;
+      border-radius: 25px;
+     background-color: rgb(236, 234, 226);
+     border-width: 5px;
+     }
+ 
+  
+ 
+ 
+ 
+ 
 
-
+  
 
