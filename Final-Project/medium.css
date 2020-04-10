@@ -1,0 +1,167 @@
+/*--------medium---*/
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 700px) {
+    
+    
+  nav {
+    background-color: rgba(0,0,0,0.3);
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  max-width:100%;
+ height: auto;
+
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+
+#section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+}
+
+#section-a .content-text p {
+    padding-top: 0;
+}
+
+.content-wrap,
+#section-b ul {
+    grid-column: 2/4;
+}
+
+.box, #main-footer div {
+    grid-column:span 2;
+}
+
+#section-b ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li {
+    width: 31%;
+}
+
+
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+
+}
+
+/*#showcase {
+    min-height: 450px;
+    color: rgb(241, 197, 1);
+   
+    text-align: center;
+    font-size: 35px;
+    
+}*/
+
+
+#showcase .bg-image {
+    position: absolute;
+    background: #000 url('https://blog-cdn.checkyeti.com/wp-content/uploads/2019/06/Rafting-Tour_Ablauf_Fotos-1024x615.jpg') center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 1;
+}
+#showcase .bg-image-2 {
+    position: absolute;
+   background-color: black;
+    /*background: #000 url('https://coloradorafting.net/wp-content/uploads/2015/09/beg_06_1.jpg') center center;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 1;
+}
+h4.forecast-item {
+    background-color:#9fb1bc;
+    border-radius: 8px;
+    
+}
+
+
+   .forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: .10rem;
+    margin: .10em;
+}
+
+
+div .gridforecast{
+margin: auto ;
+width: 30%;
+}
+iframe{
+    width: 50%;
+}
+
+
+.gridforecast {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+border-radius: 8px;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+ margin: auto 0;
+color: white;
+text-shadow: 2px 2px 4px navy;
+}
+
+.forecast h3{
+text-align: center;
+color: #f4acb7;
+font-size: 25px;
+}
+
+.forecast-item img {
+    padding: .5rem;
+    width: 90px;
+}
+
+/*gallery*/
+
+.container-gallery {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#main-footer {
+    padding: 2em;
+    background:#2e5266;
+    color:#fff;
+    margin: 0 auto;
+}
+#main-footer div{
+    text-align: center;
+}
+
+
+ /*end medium*/
+/* instructor*/
+main, section {
+    width: 90%;
+    margin: 0 auto;
+}
+}
