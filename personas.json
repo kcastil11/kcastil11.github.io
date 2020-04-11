@@ -1,76 +1,75 @@
 {
-    "staffs": [
-      {
-        "name": "Emmett Brown",
-        "photo": "doc.png",
-        "age": 55,
-        "yearsofexperience":"15 years" ,
-        "location": "Macanudo River",
-        "star": 5,
-        "comments": [
-          "He loves spending time with nature"
-        ]
-      },
-      {
-        "name": "Neo",
-        "photo": "neo.png",
-        "motto": "Life is a rollorcoaster",
-        "age": 35,
-        "yearsofexperience":"7 years" ,
-        "location": "Macizo and Tatascan Rivers",
-           "star": 4.5,
-        "comments": [
-          "He is a software programer too"  
-        ]
-      },
-      {
-        "name": "Bruce Wayne",
-        "photo": "bruce.png",
-        "age": 38,
-        "yearsofexperience":"10 years" ,
-        "location": "Vulgareo and Quiebres Rivers",
-        "star": 5,
-        "comments": [
-          "Comics are his passion "
-       
-        ]
-      },
-      {
-        "name": "Jack Dawson",
-        "photo": "titanic.png",
-        "age": 25,
-        "yearsofexperience":"2 years" ,
-        "location": "Chusco and Maracanazo Rivers",
-        "star": 4,
-        "comments": [
-          "Our newest staff member"
-       
-        ]
-      },
-      {
-        "name": "Maverick",
-        "photo": "topgun.png",
-        "age": 30,
-        "yearsofexperience":" 8years" ,
-        "location": "Macaneo River",
-        "star": 4.8,
-        "comments": [
-          "He loves planes and aerial views "
-       
-        ]
-      },
+  "staffs": [
+    {
+      "name": "Emmett Brown",
+      "photo": "doc.png",
+      "age": 55,
+      "yearsofexperience":"15 years" ,
+      "location": "Macanudo River",
+      "star": 5,
+      "comments": [
+        "He loves spending time with nature, he is amazing!"
+      ]
+    },
+    {
+      "name": "Neo",
+      "photo": "neo.png",
+      "age": 35,
+      "yearsofexperience":"7 years" ,
+      "location": "Macizo and Tatascan Rivers",
+      "star": 4.5,
+      "comments": [
+        "He is a software programer too"  
+      ]
+    },
+    {
+      "name": "Bruce Wayne",
+      "photo": "bruce.png",
+      "age": 38,
+      "yearsofexperience":"10 years" ,
+      "location": "Vulgareo and Quiebres Rivers",
+      "star": 5,
+      "comments": [
+        "Comics are his passion "
      
-      {
-        "name": "James Bond",
-        "photo": "007.png",
-        "age": 45,
-        "yearsofexperience":"9 years" ,
-        "location": "Macanudo River",
-        "star": 5,
-        "comments": [
-          "The best coach ever"
-         
-        ]
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "name": "Jack Dawson",
+      "photo": "titanic.png",
+      "age": 25,
+      "yearsofexperience":"2 years" ,
+      "location": "Chusco and Maracanazo Rivers",
+      "star": 4,
+      "comments": [
+        "Our newest staff member"
+     
+      ]
+    },
+    {
+      "name": "Maverick",
+      "photo": "topgun.png",
+      "age": 30,
+      "yearsofexperience":" 8years" ,
+      "location": "Macaneo River",
+      "star": 4.8,
+      "comments": [
+        "He loves planes and aerial views "
+     
+      ]
+    },
+   
+    {
+      "name": "James Bond",
+      "photo": "007.png",
+      "age": 45,
+      "yearsofexperience":"9 years" ,
+      "location": "Macanudo River",
+      "star": 5,
+      "comments": [
+        "The best coach ever"
+       
+      ]
+    }
+  ]
+}
