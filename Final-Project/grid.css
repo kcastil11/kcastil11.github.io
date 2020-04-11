@@ -341,20 +341,6 @@ iframe{
 
 
    
-/* form*/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-/* forma2 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}*/
 
 
 .container {
@@ -511,7 +497,7 @@ main, #header {
 }
 
 
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
+
 i[class^=star-]:after{font: normal normal 16px/1 FontAwesome;}
 .star-1:after{content:"\f005\f006\f006\f006\f006";}
 .star-2:after{content:"\f005\f005\f006\f006\f006";}
