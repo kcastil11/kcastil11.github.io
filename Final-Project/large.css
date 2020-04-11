@@ -22,7 +22,7 @@
       grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
   .box-2{
-    width:750px;
+    width:500px;
 }
 
        .menu li {

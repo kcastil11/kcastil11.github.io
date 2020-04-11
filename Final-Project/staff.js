@@ -1,4 +1,4 @@
-const requestURL = 'https://kcastil11.github.io/final/personas.json';
+const requestURL = 'https://kcastil11.github.io/personas.json';
  
 
 fetch(requestURL)
@@ -11,7 +11,7 @@ fetch(requestURL)
     const towns = jsonObject['staffs'];
 
     for (var i = 0; i < towns.length; i++) {
-        if (towns[i].name == "Frank Lampard" || towns[i].name == "Zinedin Zidane" || towns[i].name == "David Beckham"  || towns[i].name == "Frodo" || towns[i].name == "King Richard" || towns[i].name == "Salma Hayek" ){
+        if (towns[i].name == "Emmett Brown" || towns[i].name == "Neo" || towns[i].name == "Maverick"  || towns[i].name == "James Bond" || towns[i].name == "Jack Dawson" || towns[i].name == "Bruce Wayne" ){
         
 
       var contenido = document.createElement('section');
@@ -30,7 +30,7 @@ fetch(requestURL)
 
 
       h2.textContent = towns[i].name;
-      h4.textContent = "Motto: " + towns[i].motto;
+      h4.textContent = "stars: " + towns[i].star;
       year.textContent = "Age: " + towns[i].age;
       population.textContent = "Years of experience: " + towns[i].yearsofexperience;
       rainfall.textContent = "Location: " + towns[i].location;

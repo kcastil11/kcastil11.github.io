@@ -84,12 +84,13 @@ p {
   
   .menu a#active {
     background-color: #9d8189;
-    border-radius: 50px;
+    border-radius: 10px;
+  
   }
   
   .menu a:hover {
     background: #6e8898;
-    border-radius: 50px;
+    border-radius: 10px;
   }
   
   .container-gallery {
@@ -152,7 +153,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: #000 url('https://blog-cdn.checkyeti.com/wp-content/uploads/2019/09/Rafting_general.jpg ') center center;
+    background: #000 url('https://images.unsplash.com/photo-1494175022155-9d4da9a6a8b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') center center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,8 +209,9 @@ p {
 
 #section-a {
     margin: 0 auto;
-    background:rgb(250, 226, 219);
-    color:r;
+    border-radius: 30px 30px 30px 30px;
+    background:#d3d0cb;
+    color:#2e5266;
     padding-bottom: 2em;
     /*max-width: 1460px;*/
     width: 100%;
@@ -231,8 +233,8 @@ p {
 }
 #section-a3{
     margin: 0 auto;
-    background:rgb(150, 182, 253);
-    color:rgb(70, 58, 58);
+    background:#9fb1bc;
+    color:#6d565c;
     padding-bottom: 2em;
     max-width: 560px;;
    border-radius: 50px;
@@ -285,8 +287,9 @@ p {
 }
 
 #section-c {
-    background:rgb(250, 226, 219);
-    color:#000;
+    background:#d3d0cb;
+    color:#2e5266;
+    border-radius: 30px 30px 30px 30px;
     box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
     font-size: 15px;
     text-align: justify;
@@ -359,7 +362,7 @@ iframe{
   width: 100%;
   margin: 0 auto;
   position: relative;
-background-color:#4CAF50;
+  background-color:#4CAF50;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
@@ -496,7 +499,7 @@ fieldset {
     flex-wrap: wrap;
     margin: 10px;
     padding-bottom: 10px;
-    background-color: #3878ee;
+    background-color: #9fb1bc;
     max-width: 100%;
     padding: 10px;
     border-radius: 25px;
