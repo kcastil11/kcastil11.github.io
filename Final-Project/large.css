@@ -22,6 +22,7 @@
       grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
   .box-2{
+    margin: 10px;
     width:500px;
 }
 
@@ -178,7 +179,7 @@
   }
   
   input {
-    font: 1em "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font: 1em "Muli", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     padding: 1rem;
   }
@@ -194,7 +195,7 @@
     box-sizing:border-box;
   }
   .validation { width:2.75em; height:4rem; background:#CCC; padding:0; margin:0; line-height:4rem; text-align:center; font-weight:normal;
-    font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Amaranth", Helvetica, Arial, "Lucida Grande", sans-serif;
     position: absolute;
     top: 0;
     right: 0;

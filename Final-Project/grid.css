@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Amaranth', sans-serif;
     background: #d8e2dc;
     color: rgb(5, 4, 4);
     font-size: 1.1em;
@@ -259,7 +259,7 @@ p {
 #section-a1 h2{
     font-size: 25px;
   color:black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Muli,Georgia, Times, 'Times New Roman', serif;
   text-shadow: 2px 2px 3px rgb(231, 142, 142);
 }
 
@@ -492,7 +492,7 @@ fieldset {
 }
 main, #header {
     text-align: center;
-    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
     font-size: 0.95em;
 }
 
