@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px) {
+    main {
+      width: 70%; 
+    }
+    header {
+      width: 25%;
+      margin: 0;
+      padding-bottom: 100%;
+      overflow: hidden;
+      padding-right: 10px;
+      padding-left: 10px; 
+    } 
+
+      img {
+        width: 50%;
+       } 
+    
+
+    }
+  
