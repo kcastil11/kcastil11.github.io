@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #FAEBD7;
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  float: left;
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+}
+
+hr {
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* first part of the code */
+header {
+  float: left;
+  background-color: #6495ED;
+  color: #FAEBD7;
+  text-align: right;
+  margin: 0;
+  padding: 5px;
+}
+
+header > h1 {
+  margin-bottom: 0;
+}
+
+header > h1 > a {
+  text-decoration: none;
+  color: #FAEBD7;
+}
+
+header > h1 > a > ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a:active {
+  color: #DEB887;
+}
+
+nav a:active > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a {
+  color: #DEB887;
+  text-decoration: none;
+}
+
+/* End of first part */
+/* second part of the */
+article {
+  width: 95%;
+  padding: 10px;
+  margin: 25px auto;
+  box-shadow: 3px 3px #d3d3d3;
+  background-color: #ffffff;
+}
+
+article ul li, article h1 {
+  padding: 8px;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article h2 a, article h2 a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+article h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+article h2 a:hover > article a {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+/* end of the second part */
+/*  last part code */
+.post-date {
+  margin-top: 20px;
+  margin-bottom: 2px;
+  color: #d3d3d3;
+}
+
+.post-content, .post-date {
+  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.post-content {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* end code*/
+/*queries*/
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  img > main {
+    width: 100%;
+  }
+  img > main > header {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

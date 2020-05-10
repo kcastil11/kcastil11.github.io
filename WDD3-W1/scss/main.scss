@@ -1,0 +1,174 @@
+//variables
+$color-yellow: #FAEBD7;
+$color-blue: #6495ED;
+$color-brown: #DEB887;
+$color-white: #ffffff;
+$color-grey: #d3d3d3;
+$color-black: #000000;
+
+//queries breakpoint
+$breakpoint: 600px;
+
+//mixins
+@mixin ancho($size) {
+  width: $size;
+  
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color:$color-yellow ;
+    margin: 0;
+    height: 100%; }
+  
+  main {
+    float: left; 
+  }
+   
+      h1, h2 {
+        font-family: 'Lora', serif;
+     }
+     hr {
+        @include ancho(95%);
+        display: block;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+      
+    
+
+/* first part of the code */
+//nesting
+
+header {
+  float: left;
+  background-color:$color-blue ;
+  color: $color-yellow;
+  text-align: right;
+  margin: 0;
+  padding: 5px; 
+  > h1 {
+    margin-bottom: 0; 
+  > a {
+    text-decoration: none;
+    color: $color-yellow;
+  > ul {
+    list-style: none;
+    padding: 0; 
+}
+}
+}
+}
+//nesting
+nav a:active {
+  color:$color-brown ; 
+ > a:hover {
+  color: $color-white;
+  text-decoration: underline;
+ }
+}
+
+ a {
+  color:$color-brown;
+  text-decoration: none;
+ }
+ 
+ /* End of first part */
+
+
+
+/* second part of the */
+//nesting and mixing
+article {
+    @include ancho(95%);
+    padding: 10px;
+    margin: 25px auto;
+    box-shadow: 3px 3px $color-grey;
+    background-color:$color-white;
+   }
+  
+    article ul li, article h1 {
+      padding: 8px; 
+  }
+    article h2 {
+      margin-top: 0;
+   }
+      article h2 a, article h2 a:visited {
+        color: $color-black;
+        text-decoration: none; 
+      }
+      
+      
+      
+      //nesting
+ article h2 a:hover {
+        color: $color-blue;
+        text-decoration: underline; 
+      > article a {
+      color: $color-blue;
+      text-decoration: none; 
+  }
+ }
+ 
+
+//mixing
+
+ img {
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    @include ancho(50%);
+  }
+   
+
+        
+       
+      
+
+/* end of the second part */
+
+/*  last part code */
+
+
+.post-date {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color:$color-grey; 
+}
+  
+  .post-content, .post-date {
+    @include ancho(90%);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ }
+  
+  .post-content {
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+/* end code*/
+
+/*queries*/
+@media (max-width: $breakpoint) {
+  img {
+    @include ancho(100%) ;
+    
+  > main {
+    @include ancho(100%) ;
+   
+  > header {
+    @include ancho(100%) ;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+  } 
+  }
+  }
+  }
